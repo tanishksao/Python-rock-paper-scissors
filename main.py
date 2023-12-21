@@ -6,7 +6,7 @@ computer_action = random.choice(possible_actions)
 print(f"\nYou chose {user_action}, computer chose {computer_action}.\n")
 
 if user_action == computer_action:
-    print(f"Tehy are friends because both players selected {user_action}. It's a tie!")
+    print(f"They are friends because both players selected {user_action}. It's a tie!")
 elif user_action == "rock":
     if computer_action == "scissors":
         print("Rock uses its ninja technique on scissors 🥷! You win!")
